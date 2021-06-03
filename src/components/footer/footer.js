@@ -17,10 +17,10 @@ function footer() {
                 <div className="quote-socials">
                     <p>Keep going, keep growing 🌱</p>
                     <div className="socials">
-                        <a href="/">
+                        <a href="https://www.facebook.com/sneakerlawn">
                             <img src={fbIcon} alt="fb-icon" width="32px" height="32px" />
                         </a>
-                        <a href="/">
+                        <a href="https://www.instagram.com/sneakerlawn/">
                             <img src={igIcon} alt="ig-icon" width="29px" height="29px" />
                         </a>
                     </div>
