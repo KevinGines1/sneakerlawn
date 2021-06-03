@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.cardHolder{
+    margin: 15px;
+    width:254px;
+    height:320px;
+    background-color:rgba(229, 229, 229, 1);
+    border-radius: 5%;
+    padding: 23px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .25); /*x y blur spread*/
+    transition: 0.3s;
+
+}
+
+.cardHolder:hover{
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, .25); /*x y blur spread*/
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.sex-size{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.name-price{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.name, .sex{
+    font-weight: bolder;
+}
+
+
+.sex{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card-img{
+    width: 211.89px;
+    height:201px;
+    border-radius: 5%;
+    box-shadow: px -2px 6px 0px rgba(0, 0, 0, .25); /*x y blur spread*/
+}

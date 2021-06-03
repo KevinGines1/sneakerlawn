@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.carousel-holder{
+    margin: auto;
+    margin-top: 115px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.headerHolder{
+    margin: auto;
+    width: 90%;
+    display: flex;
+}
+
+.header{
+    margin-top: 17px;
+    color: rgba(7, 42, 36, 1);
+    font-size: 64px;
+    text-shadow: rh;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+.photoHolders{
+    width: 100%;
+    display:flex
+}
+
+.subPhotoHolders{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+
+h3{
+    color:black;
+}
+
+.carousel{
+    background-color:rgba(127, 177, 116, 1);
+    align-items: center;
+    vertical-align: center;
+    width:100%;
+}
+
+.itemHolder{
+    display:flex;
+    justify-content: space-around;
+    background-color:rgba(127, 177, 116, 1);
+}
+
+.carousel-item-holder{
+    display:flex;
+    justify-content: center;
+}
+
+.itemHolder-caption{
+    margin-left:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 75%;
+
+}
+
+.shoe-name {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size:64px;
+    color:rgba(7, 42, 36, 1);
+    text-shadow: rh;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+
+}
+
+.shoe-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size:24px;
+}
+
+.order-btn{
+    border-radius:50px;
+    width:217px;
+    height:56px;
+    vertical-align: center;
+    background-color: rgba(7, 42, 36, 1);
+}
+
+.order-txt{
+    font-family: 'Montserrat', sans-serif;
+    font-size:24px;
+    margin-top: 7px;
+    color:rgba(154, 206, 184, 1);
+}
