@@ -134,8 +134,8 @@ function shop() {
                 </DropdownButton>
             </div>
             <div className="shoes">
-                {shoes.map(shoe => (
-                    <ShoeCard shoe={shoe} />
+                {shoes.map((shoe, index) => (
+                    <ShoeCard shoe={shoe} key={index} />
                 ))}
             </div>
         </div>
